@@ -1,0 +1,9 @@
+# Node.js
+node_modules/
+
+# Python
+venv/
+
+# HTML and JSON files
+*.html
+*.json
