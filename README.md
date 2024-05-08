@@ -1,6 +1,9 @@
-Web Scraping Project
+Web Scraping
 
-This project automates the process of extracting content from a web page, analyzing its structure, and generating a final HTML file with replaced links and iframes.
+This project automates the process of extracting content from web page, analyzing its structure, and generating a final HTML file with replaced links, iframes and content.
+
+The stack was choose by performance.
+
 
 Installation
 
