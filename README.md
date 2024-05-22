@@ -51,4 +51,4 @@ most urls would be ready in a blink of a eye
 - V2.1 (testing)
 
 Jonatas Walker Filho
-jonatasswwalker@reeducation.com.br
+jonatasswwalker@gmail.com
