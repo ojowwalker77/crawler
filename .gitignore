@@ -1,6 +1,4 @@
-# Node.js
 node_modules/
-
-# HTML and JSON files
-*.html
-*.json
+content/
+.env
+*.log
