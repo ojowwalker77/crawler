@@ -1,21 +1,20 @@
 # Web Crawler
 
-Este projeto é um web crawler desenvolvido em Node.js utilizando Playwright. Ele é projetado para automatizar o processo de login, navegar em páginas web específicas, extrair links de conteúdo, analisar o conteúdo extraído e baixar arquivos de diferentes tipos.
+This project is a web crawler developed in Node.js using Playwright. It is designed to automate the login process, navigate specific web pages, extract content links, analyze the extracted content, and download files of different types. Also you can analyse the logs to get insights, visual data and pseudo code as recomendations using OPENAI API
 
-## Instalação:
+## Instalation:
 
-Pré-requisitos:
+Prerequisites:
 
 - Node.js (v14.x ou superior)
 - npm (v6.x ou superior)
 
-Passos para Instalação
 
 ```sh
 npm install
 ```
 
-Crie um arquivo .env na raiz do projeto e adicione as variáveis de ambiente:
+Create a .env file in the root of the project and add the environment variables:
 
 env:
 
@@ -26,19 +25,21 @@ BASE_URL=https://seu-endereco-base.com/
 OPENAI_API_KEY=
 ```
 
-Para executar o crawler, use o comando:
+To run the crawler, use the command:
 
 ```sh
 npm start
 ```
 
-## Perfomance History:
+## Stress Tests Perfomance History:
 
-(usando science/resources como base)
+(using Private URL as a base)
 
-- V1 (usada para entrega do IB Science): +/- 12 minutos
-- V2, reescrita (atual) : entre 4 a 1 minuto dependendo da RAM disponível
-- V2.1 (estou testando) :
+most urls would be ready in a blink of a eye
+
+- V1 : +/- 12 minutos
+- V2 (current) : between 4 to 1 minute depending on available RAM
+- V2.1 (testing)
 
 Jonatas Walker Filho
-jonatas.walker@reeducation.com.br
+jonatasswwalker@reeducation.com.br
