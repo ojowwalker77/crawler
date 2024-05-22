@@ -25,6 +25,15 @@ BASE_URL=https://seu-endereco-base.com/
 OPENAI_API_KEY=
 ```
 
+Create a content folder in project root, Script will first ensure all paths exist:
+
+```
+2024-05-22 10:04:50 info: Starting the web crawler
+2024-05-22 10:04:50 info: Ensured directory exists: content/htmls
+2024-05-22 10:04:50 info: Ensured directory exists: content/downloads
+2024-05-22 10:04:50 info: Starting crawl for URL: ***********
+```
+
 To run the crawler, use the command:
 
 ```sh
